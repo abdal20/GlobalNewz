@@ -1,38 +1,123 @@
-.App {
+.app{
+  font-family: "Margarine", sans-serif;
+
   text-align: center;
-}
+  background-color:cornflowerblue;
+  color: cornsilk;
+  text-transform: capitalize;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.category-menu{
+  margin: 20px;
 }
+.category-menu button{
+  margin: 5px;
+  padding: 13px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #1dab35;
+  border-radius: 10px;
+  box-shadow: 200px;
+  display: inline-block;
+  font-family:"Orbitron", sans-serif; ;
+text-transform:capitalize;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.category-menu button:hover{
+  margin: 5px;
+  padding: 13px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #1dab35;
+  border-radius: 10px;
+  background-color: chartreuse;
+  color: rgb(0, 0, 0);
+}
+.news-list{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color:rgb(76, 100, 124);
 }
 
-.App-link {
-  color: #61dafb;
+.news-card {
+  border: 2px solid #ddd;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 13px 5px rgba(255, 255, 255, 0.1);
+  background-color: rgba(27, 83, 203, 0.217);
+}
+.news-card h2 {
+  font-size: 18px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.news-card p {
+  font-size: 14px;
 }
+
+.news-card a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+.news-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+.title1{
+  color: #c40149;
+  font-size: 40px;
+  -moz-box-flex: inherit;
+  background-color:rgb(199, 255, 161);
+  mask-border: 30px;
+  text-transform: uppercase;
+  font-family:"Orbitron", sans-serif; ;
+
+ &:hover{
+  background-color: #608b42;
+  color: #ddd;
+ }
+}
+
+.news-card:hover {
+  border: 2px solid #ddd;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 13px 5px rgba(255, 255, 255, 0.1);
+  background-color: rgba(220, 231, 255, 0.217);
+}
+.category-menu button:active{
+  margin: 5px;
+  padding: 13px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #3e5b43;
+  border-radius: 10px;
+  background-color: chartreuse;
+}
+.learn1{
+  background-color:rgb(130, 226, 163);
+  font-weight: 100;
+  font-size: larger;
+  border-radius: 2px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+
+
+}
+.learn1:hover{
+  background-color:rgb(30, 247, 106);
+  font-weight: 100;
+  font-size: 23px;
+  border-radius: 2px;
+  padding: 8px 20px;
+
+}
+
