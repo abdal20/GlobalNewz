@@ -5,7 +5,7 @@ import NewsList from './components/NewsList';
 import axios from 'axios';
 
 // Define API key and base URL
-const API_KEY = process.env.REACT_APP_NEWS_API_KEY;
+const API_KEY = '2ef03e3963344909b93f05308c080031';
 const BASE_URL = 'https://newsapi.org/v2';
 
 const App = () => {
